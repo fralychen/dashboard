@@ -28,6 +28,7 @@ import sys
 sys.path.insert(0, base_dir)
 
 from rrd import app
+#导入rrd初始化包
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8081, debug=True)
